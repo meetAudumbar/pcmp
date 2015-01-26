@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+    
+<head><title>Smartshop</title>
+<meta charset="utf-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="short icon" href="Bst/img/smrt.png"></link>
+<link href="Bst/css/bootstrap.min.css" rel="stylesheet"></link>
+<link href="Bst/css/submenu.css" rel="stylesheet"></link>
+<link href="Bst/css/mycss.css" rel="stylesheet"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+  #bd{
+    background-color:#ACDFF2;
+
+  }
+.topnav{
+       background-color:#000033;
+  }
+  
+  #nvlogo{
+  height:50px;
+  width:200px;
+  }
+  
+</style>
+</head>
+<body id="bd"  class="responsive">
+    <!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
+<nav class=" topnav navbar  navbar-form navbar-inverse navbar-inner navbar-fixed-top responsive" >
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img id="nvlogo"src="Bst/img/logo.png"></img> 
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"> My Account<span class="sr-only">(current)</span></a>
+          <ul class="dropdown-menu" role="menu">
+            
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">Payments</a></li>
+            <li class="divider"></li>
+            <li><a href="#">customer helpline</a></li>
+        
+          </ul>
+        </li>
+        
+        <li><a href="#">Offers</a></li>
+    
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Product List<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-submenu ">
+                <a href="#" tabindex=-1>One more separated link</a>
+            
+            <ul  class="dropdown-menu" role="menu">
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub2</a></li>
+            <li><a href="#">sub3</a></li>
+            </ul>
+          
+            </li>
+          </ul>
+        </li>
+      
+         
+        <form class="navbar-form navbar-left col-xs-8 col-xs-5" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control fixed input-xs-1" placeholder="Search Product here " >
+        </div>
+        <button type="submit" class="btn btn-group glyphicon glyphicon-search"></button>
+      </form>
+      </ul>
+     
+                 <ul class="nav pull-left nav-form navbar-nav">
+						<li class="dropdown">
+						<a class="dropdown-toggle " href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+						<div class="dropdown-menu responsive" style="padding: 15px; padding-bottom: 0px;">
+							<form method="post" action="login" accept-charset="UTF-8">
+								<input style="margin-bottom: 15px;" type="text" placeholder="Username" id="username" name="username" required autofocus>
+								<input style="margin-bottom: 15px;" type="password" placeholder="Password" id="password" name="password" required>
+								<input style="float: left; margin-right: 10px;" type="checkbox" name="remember-me" id="remember-me" value="1">
+								<label class="string optional" for="user_remember_me"> Remember me</label>
+								<input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
+								<label style="text-align:center;margin-top:5px">or</label>
+                                <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+								<input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+							</form>
+						</div>
+					</li>
+					<li><a  class="btn" data-toggle="modal" data-target="#myModal">Sign up</a></li>
+  
+
+    
+	          </ul>
+	          
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
+<hr>
+<hr>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+       <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <h2>Slide 1</h2>
+                <div class="carousel-caption">
+                  <h3>First slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 2</h2>
+                <div class="carousel-caption">
+                  <h3>Second slide label</h3>
+                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 3</h2>
+                <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
+<!-- Sign up model -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog model-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><a href="#"><i class="glyphicon glyphicon-globe"></i></a> Sign up!</h4>
+      </div>
+      <div class="modal-body responsive" >
+          
+        <div class="container">
+        <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+            <form action="#" method="post" class="form" role="form">
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="firstname" placeholder="First Name" type="text"
+                        required autofocus />
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
+                </div>
+            </div>
+            <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
+            <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
+            <input class="form-control" name="password" placeholder="New Password" type="password" />
+            <label for="">
+                Birth Date</label>
+            <div class="row">
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Month">Month</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Day">Day</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Year">Year</option>
+                    </select>
+                </div>
+            </div>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+                Male
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+                Female
+            </label>
+            <br />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                Sign up</button>
+            </form>
+             </div>
+              <img src="Bst/img/signup.jpg" style="float:left height:80px"></img>
+           </div>
+         </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
+<div class="col col-xs-offset-1 fixed-left">
+
+    <address>
+     <strong>Awanitron Technologies Private Limited</strong><br>
+     B/6 Balaji Housing Society<br>
+     (Sy. No 75/1) Baner Village<br>
+     Pune 411045<br>
+     <abbr title="Phone">P:</abbr> +91-97405 00144
+     </address>
+     <address>
+     <strong>Full Name</strong><br>
+     <a href="mailto:#"> mvaidya@awanitech.com</a>
+    </address>
+</div>
+</body>
+</html>
