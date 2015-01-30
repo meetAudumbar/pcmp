@@ -1,8 +1,8 @@
-<!doctype html>
+
 <html lang="en">
     
 <head><title>Smartshop</title>
-<meta charset="utf-8"></meta>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="short icon" href="Bst/img/smrt.png"></link>
 <link href="Bst/css/bootstrap.min.css" rel="stylesheet"></link>
@@ -26,9 +26,12 @@
   
 </style>
 </head>
-<body id="bd"  class="responsive">
+<body id="bd" class="responsive">
     <!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
 <nav class=" topnav navbar  navbar-form navbar-inverse navbar-inner navbar-fixed-top responsive" >
+  <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    src="https://platform.twitter.com/widgets/tweet_button.html"
+    style="border: 0; width:130px; height:20px;"></iframe>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -38,7 +41,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <img id="nvlogo"src="Bst/img/logo.png"></img> 
+    <!--logo image--->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,16 +86,21 @@
             </li>
           </ul>
         </li>
-      
-         
-        <form class="navbar-form navbar-left col-xs-8 col-xs-5" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control fixed input-xs-1" placeholder="Search Product here " >
-        </div>
-        <button type="submit" class="btn btn-group glyphicon glyphicon-search"></button>
-      </form>
       </ul>
-     
+ <ul class=" navbar-inner nav-form navbar-nav responsive" >
+         <li>
+     <form class="navbar-form navbar-nav" target="_self" action="http://dl.flipkart.com/dl/search-all" method="get">
+          <div id="bar">
+              <img alt="Flipkart.com" title="Flipkart.com" style="float:left;width: 125px;vertical-align:middle;margin-right: 10px;margin-left: 5px;" src="http://www.flipkart.com/images/flipkart_india.png" />
+              <div class="input-group">
+                   <input type="hidden" name="affid" value="forvaidya" /> 
+                   <input type="hidden" name="wgtid" value="FK-AF-SB" />
+                   <input id="search-box" type="text" name="query" /> 
+                   <input class="btn-success" id="search-button" type="button" onclick="this.form.submit()" value="Search" />
+         </div> 
+              </div> 
+     </form></li> 
+     </ul>
                  <ul class="nav pull-left nav-form navbar-nav">
 						<li class="dropdown">
 						<a class="dropdown-toggle " href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
@@ -121,6 +129,8 @@
 <!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
 <hr>
 <hr>
+<hr>
+<hr>
 <div class="bs-example">
     <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
     	<!-- Carousel indicators -->
@@ -132,24 +142,24 @@
        <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="active item">
-                <h2>Slide 1</h2>
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class=" responsive">
+                <a target="_blank" title="laptop accessories" href="http://dl.flipkart.com/dl/computers/peripherals?affid=audumbark"><img title="Computer Accessories" src="//img1a.flixcart.com//www/promos/new/20120907-170546-spea1.jpg" alt="computer accessories" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
                 </div>
             </div>
             <div class="item">
-                <h2>Slide 2</h2>
-                <div class="carousel-caption">
-                  <h3>Second slide label</h3>
-                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                <div class=" responsive">
+                <a target="_blank" title="laptop accessories" href="http://dl.flipkart.com/dl/computers/peripherals?affid=audumbark"><img title="Computer Accessories" src="//img1a.flixcart.com//www/promos/new/20120907-170546-spea1.jpg" alt="computer accessories" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
                 </div>
             </div>
             <div class="item">
-                <h2>Slide 3</h2>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <div class=" responsive">
+                <a target="_blank" title="laptop accessories" href="http://dl.flipkart.com/dl/computers/peripherals?affid=audumbark"><img title="Computer Accessories" src="//img1a.flixcart.com//www/promos/new/20120907-170546-spea1.jpg" alt="computer accessories" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
+                <a href="http://dl.flipkart.com/dl/offers/electronics?affid=audumbark" target="_blank"><img src="http://img1a.flixcart.com//www/promos/new/20130628-191002-ccc-display-ads-300x250.jpg" alt="" width="300" height="250" /></a>
                 </div>
             </div>
         </div>
@@ -232,18 +242,7 @@
 </div>
 <!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888 -->
 <div class="col col-xs-offset-1 fixed-left">
-
-    <address>
-     <strong>Awanitron Technologies Private Limited</strong><br>
-     B/6 Balaji Housing Society<br>
-     (Sy. No 75/1) Baner Village<br>
-     Pune 411045<br>
-     <abbr title="Phone">P:</abbr> +91-97405 00144
-     </address>
-     <address>
-     <strong>Full Name</strong><br>
-     <a href="mailto:#"> mvaidya@awanitech.com</a>
-    </address>
-</div>
+ <div class="fk_banner"> <div> <a href="http://dl.flipkart.com/dl/pur-walrus-cutlery-set-made-high-quality-food-grade-plastic-bpa-free/p/itmdzyu5xq8ykvap?pid=FDUDZYU5UCYFQCSK&amp;affid=audumbark" title="Pur Walrus Cutlery Set - Mad..." target="_blank"><img style="max-width: 108;" src="http://img6a.flixcart.com/image/feeding-utensil/c/s/k/pk-5503g-5-pur-colourful-spoon-and-fork-designed-to-grip-easily-100x100-imaey3w7ynwvysht.jpeg" alt="Pur Walrus Cutlery Set - Mad..." title="Pur Walrus Cutlery Set - Mad..."></a> </div> <div> <a href="http://dl.flipkart.com/dl/pur-walrus-cutlery-set-made-high-quality-food-grade-plastic-bpa-free/p/itmdzyu5xq8ykvap?pid=FDUDZYU5UCYFQCSK&amp;affid=audumbark" title="Pur Walrus Cutlery Set - Mad..." target="_blank">Pur Walrus Cutlery Set - Mad...</a> </div> <div> <span>List Price: Rs.180</span><br>
+ Our Price: Rs.135 </div> <div> <a href="http://dl.flipkart.com/dl/pur-walrus-cutlery-set-made-high-quality-food-grade-plastic-bpa-free/p/itmdzyu5xq8ykvap?pid=FDUDZYU5UCYFQCSK&amp;affid=audumbark" target='_blank' target="_blank"><img src="http://img5a.flixcart.com/www/prod/images/buy_btn_4-f5304194.png" alt="Buy from FlipKart" /></a> </div> </div>
 </body>
 </html>
